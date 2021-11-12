@@ -19,12 +19,11 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
-
 	int sum = tong(a,b); 
 	int minus = hieu(a,b);
 	if(phepToan=='+')
 	{
-		return 0;
+		cout<<"Tong la: "<<sum<<"\n";
 	}else if(phepToan=='-')
 	{
 		cout<<"Hieu la: "<<minus<<"\n";
