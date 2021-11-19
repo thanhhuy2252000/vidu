@@ -31,9 +31,9 @@ int main()
 	}else if(phepToan=='-')
 	{
 		cout<<"Hieu la: "<<minus<<"\n";
-	}else if(pheptoan=='*')
-	{	
-		count<<"Tich la: "<<tich(a,b)<<"\n";
+	}else if(phepToan=='*')
+	{
+		cout<<"Hieu la: "<<tich(a,b)<<"\n";
 	}
 
 	system("pause");
