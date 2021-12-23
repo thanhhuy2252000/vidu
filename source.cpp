@@ -12,7 +12,13 @@ int tich(int a, int b)
 {
 	return a*b;
 }
-
+void kiemTraChanLe(int x)
+{
+	if(x%2==0)
+		cout<<x<<" la so chan !<<endl;
+	else
+		cout<<x<<" la so le !<<endl;
+}
 int main()
 {
 	int a, b;
@@ -35,7 +41,11 @@ int main()
 	{
 		cout<<"Hieu la: "<<tich(a,b)<<"\n";
 	}
-
+	int x;
+	cout << "Nhap so nguyen x: ";
+	cin >> x;
+	kiemTraChanLe(x);
+	
 	system("pause");
 	return 0;
 }
